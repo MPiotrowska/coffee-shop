@@ -1,0 +1,15 @@
+.logoContainer {
+    color: white;
+    text-transform: uppercase;
+}
+
+.column {
+    flex:1 1 15%;
+}
+
+@media screen and (max-width: 640px) {
+    .logoContainer {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

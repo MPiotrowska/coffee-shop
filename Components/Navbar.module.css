@@ -1,0 +1,31 @@
+.navItem {
+  color: white;
+  text-decoration: none;
+}
+
+.column {
+    flex:1 1 75%;
+}
+
+.navList {
+    display: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .navList {
+        display: flex;
+        justify-content: space-around;
+        max-width: 50%;
+        margin-left: auto;
+    }
+}
+
+.burgerMenu {
+    display: block;
+}
+
+@media screen and (min-width: 1025px) {
+    .burgerMenu {
+        display: none;
+   }
+}
