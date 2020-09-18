@@ -11,17 +11,17 @@ function Navbar() {
           </a>
           <ul className={styles.listItemLinkSub}>
             <li className={styles.listItemChild}>
-              <a className={styles.listItemChildLink} href="#news">
+              <a className={styles.listItemChildLink} href="#meetOurTeam">
                 Meet Our Team
               </a>
             </li>
             <li className={styles.listItemChild}>
-              <a className={styles.listItemChildLink} href="#news">
+              <a className={styles.listItemChildLink} href="#whatWeOffer">
                 What We Offer
               </a>
             </li>
-            <li className={styles.listItemChild}>
-              <a className={styles.listItemChildLink} href="#news">
+            <li className={styles.listItemChild}>                             
+              <a className={styles.listItemChildLink} href="#ourProcess">
                Our Process
               </a>
             </li>
@@ -33,12 +33,12 @@ function Navbar() {
           </ul>
         </li>
         <li className={styles.listItem}>
-          <a className={styles.listItemLink} href="#news">
+          <a className={styles.listItemLink} href="#ourMenu">
             Our Menu
           </a>
         </li>
         <li className={styles.listItem}>
-          <a className={styles.listItemLink} href="#news">
+          <a className={styles.listItemLink} href="#shop">
             Shop
           </a>
         </li>

@@ -5,7 +5,8 @@
   height: 101px;
   position: absolute;
   bottom: 300px;
-  left: 50px;
+  left: 50%;
+  transform: translateX(-50%);
  
 }
 
@@ -25,51 +26,34 @@
     background-color: #0000001c;
   }
 
-  /* @media screen and (max-width: 640px) {
-    .hero {
-      height: auto;
-    }
-    .hero img {
-      height: auto;
-    }
-} */
 
 
-/*   
-  @media only screen and (min-width: 768px) {
-    .hero img {
-      object-fit: cover;
-    }
-  } */
+
   
   .textContainer {
     position: absolute;
     bottom: 300px;
     left: 50px;
-    top: 50%;
+   
+    left: 50%;
+    transform: translateX(-50%);
+   text-align: center;
+   
+   
   }
-/* 
-  @media screen and (max-width: 640px) {
-    .textContainer {
-      display: none;
-    }
-} */
+  
+
+  .textContainer .title {
+    text-transform: uppercase;
+  
+  }
+
   
   .textContainer .title,
   .textContainer .text {
     color: white;
   }
 
-  .textContainer .title {
-    /* margin-left: 24px ;
-    margin-right: 24px ;
-    max-width: 327px ;
-    white-space: pre-line ;
-    font-size: 29px ;
-    font-weight: 800 ;
-    line-height: 32px ;
-    letter-spacing: -0.8px ; */
-  }
 
   .textContainer .text {
 
@@ -81,6 +65,7 @@
     margin-right: 24px ;
     max-width: 327px ;
     white-space: pre-line ;
+    
 
   }
 
@@ -90,7 +75,7 @@
       line-height: 26px ;
       margin-left: 0px ;
       margin-right: 0px ;
-      max-width: 316px ;
+      max-width: 600px ;
     }
 
     .textContainer .title {
@@ -108,4 +93,16 @@
       left: 50%;
       transform: translateX(-50%);
     }
+    .heroButton {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+
+    }
+  }
+
+  .heroButton {
+   background-color: transparent;
+   color: white;
+   border: 1px solid white;
   }
